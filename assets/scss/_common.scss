@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Istok Web', sans-serif;
+}
+
+$red :#b22b2e;
+$black : #000000;
+$grey :#606060;
+
+@keyframes myAnimation {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+.changeColor {
+    color: $red;
+}
+
+
+
+/* Width and height for the scrollbar track */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 4px;
+  }
+  
+  /* Track color */
+  ::-webkit-scrollbar-track {
+    background-color: $red;
+    margin: 0 10px;
+  }
+  
+  /* Handle color */
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  /* Handle color on hover */
+//   ::-webkit-scrollbar-thumb:hover {
+//     background-color: #555;
+//   }
+
